@@ -1,109 +1,120 @@
 # Patel Engineering Standards
 
-## Overview
-
-The **Patel Engineering Standards** repository defines the engineering practices, architectural guidelines, coding conventions, documentation standards, and development workflows followed across every Patel Engineering project.
-
-Its purpose is to establish a consistent engineering culture that promotes maintainability, scalability, quality, and continuous improvement throughout the software development lifecycle.
-
-Rather than documenting a single application, this repository serves as the central engineering reference for all backend services, platform components, and future cloud-native systems developed under Patel Engineering.
+> Engineering standards, architecture principles, and cloud best practices used across all Patel Engineering projects.
 
 ---
 
-# Mission
+# Purpose
 
-Establish a consistent, scalable, and professional engineering standard that enables every Patel Engineering project to be designed, built, tested, documented, deployed, and maintained with the same level of quality.
+This repository serves as the central engineering handbook for every project developed under Patel Engineering.
 
----
+The goal is to establish consistent engineering practices that improve software quality, maintainability, security, and scalability.
 
-# Objectives
-
-- Standardize software architecture
-- Promote reusable engineering practices
-- Reduce technical debt
-- Improve code quality
-- Simplify onboarding
-- Encourage consistent documentation
-- Support scalable cloud-native development
-- Establish long-term engineering governance
+Rather than documenting individual projects, this repository defines the standards that every project should follow.
 
 ---
 
 # Repository Structure
 
+```
+patel-engineering-standards/
 
-Architecture-Decision-Records/
-Code-Review-Checklist/
-Coding-Standards/
-Engineering-Principles/
-Git-Workflow-Standard/
-Naming-Conventions/
-PPST-Standard/
-Project-Lifecycle/
-README-Standard/
-Sprint-Workflow-Standard/
-
-
----
-
-# Standards
-
-## Engineering Principles
-
-Defines the engineering philosophy and decision-making principles that guide all projects.
-
-## PPST Standard
-
-Defines the architectural blueprint for backend services built on the Patel Platform Service Template.
-
-## Coding Standards
-
-Defines code style, organization, readability, error handling, logging, and testing practices.
-
-## Naming Conventions
-
-Defines consistent naming for projects, APIs, databases, services, environment variables, Docker images, Azure resources, and Git branches.
-
-## README Standard
-
-Defines the documentation structure followed by every Patel Engineering repository.
-
-## Git Workflow
-
-Defines the branching strategy, commit conventions, pull request expectations, and release process.
-
-## Sprint Workflow
-
-Defines the iterative development lifecycle from planning through deployment.
-
-## Code Review Checklist
-
-Provides a standardized checklist for reviewing code quality, architecture, testing, and documentation.
-
-## Architecture Decision Records
-
-Captures significant architectural decisions and the reasoning behind them.
-
-## Project Lifecycle
-
-Defines the phases every Patel Engineering project follows from planning through long-term maintenance.
+├── AZ-104/
+│   ├── Resource-Groups/
+│   ├── Naming-Standards/
+│   ├── Identity/
+│   ├── RBAC/
+│   └── ...
+│
+├── Engineering-Principles/
+├── Coding-Standards/
+├── PPST-Standard/
+├── Git-Workflow-Standard/
+├── Sprint-Workflow-Standard/
+├── Project-Lifecycle/
+├── README-Standard/
+├── Architecture-Decision-Records/
+├── Code-Review-Checklist/
+└── Naming-Conventions/
+```
 
 ---
 
-# Scope
+# Repository Goals
 
-These standards apply to all Patel Engineering repositories, including reusable platform templates, backend APIs, cloud-native services, AI systems, infrastructure projects, and future engineering initiatives.
+This repository defines standards for:
+
+- Cloud Engineering
+- Azure Administration (AZ-104)
+- Software Architecture
+- Backend Engineering
+- Clean Architecture
+- Coding Standards
+- Git Workflows
+- Engineering Documentation
+- Code Reviews
+- Project Lifecycle
+- Platform Engineering (PPST)
+
+---
+
+# AZ-104
+
+The **AZ-104** section documents Azure engineering standards aligned with the Microsoft Azure Administrator certification.
+
+Topics include:
+
+- Resource Groups
+- Naming Standards
+- Identity
+- RBAC
+- Networking
+- Storage
+- Virtual Machines
+- Key Vault
+- Azure Container Registry
+- Azure Container Apps
+- Monitoring
+- Cost Management
+- Backup
+- Disaster Recovery
+
+The objective is to combine certification knowledge with practical engineering guidance.
+
+---
+
+# PPST Integration
+
+These standards are applied across PPST-based projects, including:
+
+- Patel Platform Service Template
+- Patel Data Ingestion Pipeline
+- Patel Inventory API
+- Patel Retrieval Service
+- Patel Cost Intelligence
+- Patel Auth Service
+
+---
+
+# Philosophy
+
+Engineering should be:
+
+- Consistent
+- Repeatable
+- Secure
+- Observable
+- Maintainable
+- Well documented
+
+Every repository should follow these standards.
 
 ---
 
 # Continuous Improvement
 
-Engineering standards evolve alongside technology.
+Engineering standards evolve over time.
 
-This repository is intended to grow as new lessons, patterns, and best practices emerge from real-world engineering experience.
+As new technologies, Azure services, and engineering practices emerge, this repository will continue to expand and improve.
 
----
 
-**Patel Engineering**
-
-*Learn with discipline. Build with purpose. Deliver with quality. Improve continuously.*
